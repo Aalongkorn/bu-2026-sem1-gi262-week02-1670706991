@@ -7,6 +7,23 @@ namespace Assignment
 {
     public class Assignment : MonoBehaviour
     {
+        public void Start()
+        {
+            AS01_RandomItemDrop();
+            // AS02_NestedLoopForCreate2DMap();
+            // AS03_NestedLoopForMakingWallAround();
+            // AS04_AttackEnemy();
+            // AS05_DynamicIterationLoop();
+            // AS06_WhileLoopAndArray();
+            // AS07_HealTargetAtIndex();
+            // AS08_RandomPickingDialogue();
+            // AS09_MultiplicationTable();
+            // AS10_FindSummationFromZeroToNUsingWhileLoop();
+            // AS11_SpawnEnemies();
+            // EX_01_TicTacToeGame_TurnPlay();
+            // StartCoroutine(AS12_CountTime());
+        }
+
         #region Assignment
 
         /*

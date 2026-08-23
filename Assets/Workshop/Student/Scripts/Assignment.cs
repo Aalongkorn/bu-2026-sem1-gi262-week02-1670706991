@@ -20,8 +20,12 @@ namespace Assignment
             // AS09_MultiplicationTable();
             // AS10_FindSummationFromZeroToNUsingWhileLoop();
             // AS11_SpawnEnemies();
-            // EX_01_TicTacToeGame_TurnPlay();
             // StartCoroutine(AS12_CountTime());
+            // AS13_SumOfNumbersInRow();
+            // AS14_SumOfNumbersInColumn();
+            // AS15_MakeTheTriangle();
+            // AS16_MultiplicationTableOf_2_3_and_4();
+            EX_01_TicTacToeGame_TurnPlay();
         }
 
         #region Assignment
@@ -867,9 +871,9 @@ namespace Assignment
                 "", "", ""
             }
         };
-        public string ex01_playerTurn;
-        public int ex01_row;
-        public int ex01_column;
+        public string ex01_playerTurn = "O";
+        public int ex01_row = 2;
+        public int ex01_column = 0;
         public void EX_01_TicTacToeGame_TurnPlay()
         {
             throw new System.NotImplementedException();

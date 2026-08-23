@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -25,7 +26,8 @@ namespace Assignment
             // AS14_SumOfNumbersInColumn();
             // AS15_MakeTheTriangle();
             // AS16_MultiplicationTableOf_2_3_and_4();
-            EX_01_TicTacToeGame_TurnPlay();
+            // EX_01_TicTacToeGame_TurnPlay();
+
         }
 
         #region Assignment
@@ -44,7 +46,7 @@ namespace Assignment
         public GameObject[] as01_items;
         public void AS01_RandomItemDrop()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -106,7 +108,7 @@ namespace Assignment
         public int as02_rows;
         public void AS02_NestedLoopForCreate2DMap()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -200,7 +202,7 @@ namespace Assignment
         public int as03_rows;
         public void AS03_NestedLoopForMakingWallAround()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -235,7 +237,7 @@ namespace Assignment
         public int as04_target;
         public void AS04_AttackEnemy()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -258,7 +260,7 @@ namespace Assignment
         public int as05_n;
         public void AS05_DynamicIterationLoop()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -307,7 +309,7 @@ namespace Assignment
         public string[] as06_ironManSuitNames;
         public void AS06_WhileLoopAndArray()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -345,7 +347,7 @@ namespace Assignment
         public int as07_targetIndex;
         public void AS07_HealTargetAtIndex()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -372,7 +374,7 @@ namespace Assignment
         public string[] as08_dialogues;
         public void AS08_RandomPickingDialogue()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -398,7 +400,7 @@ namespace Assignment
         public int as09_n;
         public void AS09_MultiplicationTable()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -424,7 +426,8 @@ namespace Assignment
         public int as10_n;
         public void AS10_FindSummationFromZeroToNUsingWhileLoop()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
+
         }
 
         /*
@@ -450,7 +453,7 @@ namespace Assignment
         public GameObject as11_enemyPrefab;
         public void AS11_SpawnEnemies()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -463,7 +466,7 @@ namespace Assignment
         public float as12_countTime;
         public IEnumerator AS12_CountTime()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -520,7 +523,7 @@ namespace Assignment
         public int as13_row;
         public void AS13_SumOfNumbersInRow()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -575,7 +578,7 @@ namespace Assignment
         public int as14_column;
         public void AS14_SumOfNumbersInColumn()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -625,7 +628,7 @@ namespace Assignment
         public int as15_size;
         public void AS15_MakeTheTriangle()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*
@@ -654,7 +657,7 @@ namespace Assignment
          */
         public void AS16_MultiplicationTableOf_2_3_and_4()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         #endregion
@@ -871,12 +874,12 @@ namespace Assignment
                 "", "", ""
             }
         };
-        public string ex01_playerTurn = "O";
+        public string ex01_playerTurn = "O";//กรอกเป็น X พิมพ์ใหญ่หรือ O พิมพ์ใหญ่เท่านั้น
         public int ex01_row = 2;
         public int ex01_column = 0;
         public void EX_01_TicTacToeGame_TurnPlay()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
         #endregion
 

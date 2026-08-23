@@ -67,15 +67,10 @@ namespace Assignment
          * Mark I
          * Mark II
          * Mark III
-         * Mark IV
-         * Mark V
-         * Mark VI
-         * Mark VII
          * ====== Log by Two incrementer ======
          * Mark I
          * Mark III
-         * Mark V
-         * Mark VII
+
          *
          * พารามิเตอร์:
          * - ironManSuitNames: อาร์เรย์ของชื่อชุดเกราะ Iron Man

@@ -225,27 +225,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 282a98cd581c02b48a22633c013a0455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assignment.Assignment
-  as01_items: []
-  as02_floorTiles: []
-  as02_columns: 0
-  as02_rows: 0
-  as03_wall: {fileID: 0}
-  as03_columns: 0
-  as03_rows: 0
-  as04_enemyHP: 
-  as04_damage: 0
-  as04_target: 0
-  as05_n: 0
-  as06_ironManSuitNames: []
-  as07_heroHPs: 
-  as07_heal: 0
-  as07_targetIndex: 0
-  as08_dialogues: []
-  as09_n: 0
-  as10_n: 0
-  as11_enemyHPs: 
-  as11_enemyPrefab: {fileID: 0}
-  as12_countTime: 0
+  as01_items:
+  - {fileID: 6401792816642385161, guid: 8daba404af8ca2b449f79f2ef2325e42, type: 3}
+  - {fileID: 8352787512774635016, guid: 6d6ca20a8028f4948abbd0a9460d250f, type: 3}
+  - {fileID: 8100579626664158719, guid: c1fd18bc07765e94687daeaba77a29f5, type: 3}
+  as02_floorTiles:
+  - {fileID: 8981274605333006497, guid: 93d0b3edf258c194ca8e4bdaedb3507d, type: 3}
+  - {fileID: 5525326628935868067, guid: 42ae0a1037f220c46be78186c07b001e, type: 3}
+  - {fileID: 4018252664251982846, guid: 0603b002125343345830af079f75689f, type: 3}
+  - {fileID: 6338718052967692477, guid: 4344d40571f47834fb66e2019c9b3176, type: 3}
+  - {fileID: 6447585732716477075, guid: fc041445e99b67f4398f47be2d0833ad, type: 3}
+  as02_columns: 3
+  as02_rows: 3
+  as03_wall: {fileID: 5291166318002269242, guid: 413c1aa8e8dffdd448102fbcf99aaf6d, type: 3}
+  as03_columns: 5
+  as03_rows: 5
+  as04_enemyHP: 0a000000140000001e000000
+  as04_damage: 5
+  as04_target: 2
+  as05_n: 3
+  as06_ironManSuitNames:
+  - Mark I
+  - Mark II
+  - Mark III
+  - Mark IV
+  - Mark V
+  - Mark VI
+  - Mark VII
+  as07_heroHPs: 0a000000140000001e000000
+  as07_heal: 5
+  as07_targetIndex: 1
+  as08_dialogues:
+  - "\u0E04\u0E38\u0E13\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23\u0E1A\u0E49\u0E32\u0E07\u0E04\u0E23\u0E31\u0E1A"
+  - "\u0E41\u0E25\u0E49\u0E27\u0E40\u0E08\u0E2D\u0E01\u0E31\u0E19\u0E43\u0E2B\u0E21\u0E48"
+  - "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35"
+  as09_n: 2
+  as10_n: 15
+  as11_enemyHPs: 0f0000001400000019000000
+  as11_enemyPrefab: {fileID: 8402306337599026408, guid: 750804a3353a1434ab71f408a13e1b58, type: 3}
+  as12_countTime: 5
   as13_matrix:
     rows: 3
     cols: 3
@@ -255,8 +273,8 @@ MonoBehaviour:
     rows: 3
     cols: 3
     data: 010000000200000003000000040000000500000006000000070000000800000009000000
-  as14_column: 0
-  as15_size: 0
+  as14_column: 1
+  as15_size: 10
   ex01_board:
     rows: 3
     cols: 3
@@ -267,12 +285,12 @@ MonoBehaviour:
     - X
     - O
     - X
+    - 
     - ' '
     - ' '
-    - ' '
-  ex01_playerTurn: 
+  ex01_playerTurn: 1
   ex01_row: 0
-  ex01_column: 0
+  ex01_column: 2
 --- !u!1 &652921969
 GameObject:
   m_ObjectHideFlags: 0

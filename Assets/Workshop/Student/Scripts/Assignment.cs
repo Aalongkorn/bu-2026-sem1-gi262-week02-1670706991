@@ -660,10 +660,10 @@ namespace Assignment
         /*
          * จงเขียนโปรแกรมจำลองเกม TicTacToe (XO)
          * กำหนดให้มีตัวแปร board : ขนาด 3x3 เท่านั้น
-         * public static char[,] board = new char[3, 3] {
-         * {' ', ' ', ' '},
-         * {' ', ' ', ' '},
-         * {' ', ' ', ' '}
+         * public static string[,] board = new string[3, 3] {
+         * {"", "", ""},
+         * {"", "", ""},
+         * {"", "", ""}
          * };
          *
          * โดย AS11_TicTacToeGame_TurnPlay จะรับ 3 ตัวแปรคือ
@@ -864,7 +864,7 @@ namespace Assignment
             data = new string[] {
                 "X", "X", "O",
                 "X", "O", "X",
-                " ", " ", " "
+                "", "", ""
             }
         };
         public string ex01_playerTurn;
@@ -882,10 +882,15 @@ namespace Assignment
             for (int i = 0; i < 3; i++)
             {
                 sb.AppendLine("-------------");
-                sb.AppendLine("| " + board[i, 0] + " | " + board[i, 1] + " | " + board[i, 2] + " |");
+                sb.AppendLine("| " + spaceIfEmpty(board[i, 0]) + " | " + spaceIfEmpty(board[i, 1]) + " | " + spaceIfEmpty(board[i, 2]) + " |");
             }
             sb.AppendLine("-------------");
             Debug.Log(sb.ToString());
+        }
+
+        private string spaceIfEmpty(string value)
+        {
+            return string.IsNullOrEmpty(value) ? " " : value;
         }
     }
 

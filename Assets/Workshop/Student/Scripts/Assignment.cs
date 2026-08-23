@@ -523,6 +523,7 @@ namespace Assignment
         public int as13_row;
         public void AS13_SumOfNumbersInRow()
         {
+            var matrix = as13_matrix.Get2DArray();
             throw new NotImplementedException();
         }
 
@@ -578,6 +579,7 @@ namespace Assignment
         public int as14_column;
         public void AS14_SumOfNumbersInColumn()
         {
+            var matrix = as14_matrix.Get2DArray();
             throw new NotImplementedException();
         }
 
@@ -879,6 +881,7 @@ namespace Assignment
         public int ex01_column = 0;
         public void EX_01_TicTacToeGame_TurnPlay()
         {
+            var board = ex01_board.Get2DArray();
             throw new NotImplementedException();
         }
         #endregion
